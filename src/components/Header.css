@@ -1,0 +1,48 @@
+
+.nav-bar{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    /* padding: 10px 0px; */
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.247);
+    color: black;
+    position: sticky;
+    top:0;
+    backdrop-filter: blur(2px);
+}
+
+.nav-bar h2{
+    font-size:25px;
+    margin-left: 20px;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 20px;
+   list-style-type: none;
+   font-size: 20px;
+   font-weight: 400;
+   margin-right: 20px;
+}
+
+
+.logo{
+    background-color: rgba(255, 0, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+
+}
+.search{
+    background-color: rgba(0, 128, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

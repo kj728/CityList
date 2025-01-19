@@ -1,0 +1,57 @@
+.about-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .about-content, .about-disclaimer {
+    margin-bottom: 20px;
+  }
+  
+  .about-content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .about-disclaimer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #d9534f;
+  }
+  
+  .about-disclaimer p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .about-content h1,
+    .about-disclaimer h2 {
+      font-size: 1.8rem;
+    }
+  
+    .about-content p,
+    .about-disclaimer p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-content h1,
+    .about-disclaimer h2 {
+      font-size: 1.5rem;
+    }
+  
+    .about-content p,
+    .about-disclaimer p {
+      font-size: 0.9rem;
+    }
+  }
+  

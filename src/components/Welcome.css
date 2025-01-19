@@ -1,0 +1,24 @@
+
+.welcome{
+    width: 85%;
+    /* height: 200px; */
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 10px;
+    /* box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.247); */
+    padding:10px;
+ 
+}   
+.welcome h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgb(78, 68, 68);
+}
+
+.welcome p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(78, 68, 68);
+}
